@@ -1,0 +1,18 @@
+{
+  "name": "OperaClinics",
+  "version": "1.0.0",
+  "description": "Medical Appointments system",
+  "main": "main.js",
+  "author": "GateSolutions",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "electron-settings": "^3.2.0",
+    "yarn": "^1.12.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "build": "electron-builder build --win --publish never",
+    "deploy": "electron-builder build --win --publish always"
+  }
+}
